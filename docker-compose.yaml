@@ -1,17 +1,12 @@
 version: "2.19.1"
 services:
-  school_front:
-    build:
-      context: ./alpha
-      dockerfile: Dockerfile
-    container_name: frontend_school_c
+  management_front:
+    build: "./alpha"
+    container_name: "frontend_management_c"
     ports:
       - "3000:3000"
-
-  school_back:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: backend_school_c
+  management_back:
+    build: "./backend"
+    container_name: "backend_management_c"
     ports:
       - "5000:5000"
