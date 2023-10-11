@@ -13,7 +13,7 @@
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
   },
- "dependencies": {
+  "dependencies": {
     "@clerk/nextjs": "^4.23.5",
     "@hello-pangea/dnd": "^16.3.0",
     "@hookform/resolvers": "^3.3.1",
@@ -29,6 +29,7 @@
     "@radix-ui/react-progress": "^1.0.3",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
     "@tanstack/react-table": "^8.9.11",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
@@ -43,6 +44,7 @@
     "eslint-config-next": "13.4.12",
     "lucide-react": "^0.276.0",
     "next": "13.4.12",
+    "next-themes": "^0.2.1",
     "postcss": "8.4.29",
     "query-string": "^8.1.0",
     "react": "18.2.0",

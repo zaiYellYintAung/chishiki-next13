@@ -1,6 +1,6 @@
 import { ReactNode } from "react"
 
-export default function PersonalAppLayout({
+export default function DashboardLayout({
   children,
 }: {
   children: ReactNode
